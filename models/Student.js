@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 // 1.声明schema
-let adminSchema = new mongoose.Schema({
+let studentSchema = new mongoose.Schema({
   sid: Number,          //学号
   name: String,       //姓名
   sex: String,      //性别

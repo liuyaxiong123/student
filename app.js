@@ -3,7 +3,7 @@ const express = require('express'),
       // mongoose内依赖自动有mongodb，所以不需要再次安装或引入mongodb
       mongoose = require('mongoose');
       cookieSession = require('cookie-session');
-
+      mainctrl = require('./controllers/mainctrl');
 // 连接数据库 端口号不需要写 ，最后的反斜杠是操作的数据库名称
 mongoose.connect('mongodb://localhost/sm', { useUnifiedTopology: true, useNewUrlParser: true });
 
